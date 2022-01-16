@@ -249,9 +249,10 @@ body {
 #contact__main{
     position: relative;
     margin: 0 auto;
-    height: 800px;
+    height: 980px;
     max-width: 1440px;
-    transform: translateY(-50px);
+    padding-top: 100px;
+    transform: translateY(-100px);
     background-color: #f6f6f4;
 }
 
@@ -275,6 +276,37 @@ body {
 }
 
 /* contact page style end */
+
+/* gallery videos style start */
+.videos{
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 100px;
+    transform: translateY(-100px);
+    background-color: #f6f6f4;
+}
+
+.videos__wrapper{
+    max-width: 1040px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video__item{
+    padding-top: 56.25%;
+}
+
+.video__element{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+/* gallery videos style end */
 
 
 
